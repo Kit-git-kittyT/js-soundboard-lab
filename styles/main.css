@@ -1,0 +1,31 @@
+* { box-sizing: border-box;
+}
+body {
+    margin: 0x;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-box {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    color: red;
+}
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 108px;
+    width: 115px;
+    border: 2px solid black;
+    
+}
+.grid-item:hover {
+    background-image: url("../images/head.gif");
+    background-size: cover;
+    background-position: center;
+    color: gainsboro;
+    cursor: pointer;
+}
